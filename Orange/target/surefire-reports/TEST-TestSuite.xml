@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="116.631" tests="17" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\01096\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\01096\OneDrive\Desktop\Test On Maven\Orange\target\test-classes;C:\Users\01096\OneDrive\Desktop\Test On Maven\Orange\target\classes;C:\Users\01096\.m2\repository\org\testng\testng\6.8.1\testng-6.8.1.jar;C:\Users\01096\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\01096\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\01096\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-java\2.44.0\selenium-java-2.44.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.44.0\selenium-chrome-driver-2.44.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.44.0\selenium-remote-driver-2.44.0.jar;C:\Users\01096\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-api\2.44.0\selenium-api-2.44.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.44.0\selenium-htmlunit-driver-2.44.0.jar;C:\Users\01096\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\01096\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\01096\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\01096\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;C:\Users\01096\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\01096\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\01096\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\01096\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\01096\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\01096\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\01096\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\01096\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\01096\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\01096\.m2\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;C:\Users\01096\.m2\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\httpclient\4.3.4\httpclient-4.3.4.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.44.0\selenium-firefox-driver-2.44.0.jar;C:\Users\01096\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.44.0\selenium-ie-driver-2.44.0.jar;C:\Users\01096\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\01096\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.44.0\selenium-safari-driver-2.44.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-support\2.44.0\selenium-support-2.44.0.jar;C:\Users\01096\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\01096\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\01096\.m2\repository\com\opera\operadriver\1.5\operadriver-1.5.jar;C:\Users\01096\.m2\repository\com\opera\operalaunchers\1.1\operalaunchers-1.1.jar;C:\Users\01096\.m2\repository\com\google\protobuf\protobuf-java\2.4.1\protobuf-java-2.4.1.jar;C:\Users\01096\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\Users\01096\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\01096\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\01096\.m2\repository\org\ini4j\ini4j\0.5.2\ini4j-0.5.2.jar;C:\Users\01096\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\01096\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\01096\.m2\repository\io\github\bonigarcia\webdrivermanager\5.2.2\webdrivermanager-5.2.2.jar;C:\Users\01096\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\01096\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\01096\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\01096\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\01096\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\01096\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\01096\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\01096\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\01096\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\01096\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\01096\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\01096\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\01096\AppData\Local\Temp\surefire6493754196378322511\surefirebooter6805787880833851306.jar C:\Users\01096\AppData\Local\Temp\surefire6493754196378322511 2022-12-29T14-56-21_162-jvmRun1 surefire9109146511919245100tmp surefire_010147612698449008255tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\01096\OneDrive\Desktop\Test On Maven\Orange\target\test-classes;C:\Users\01096\OneDrive\Desktop\Test On Maven\Orange\target\classes;C:\Users\01096\.m2\repository\org\testng\testng\6.8.1\testng-6.8.1.jar;C:\Users\01096\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\01096\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\01096\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-java\2.44.0\selenium-java-2.44.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.44.0\selenium-chrome-driver-2.44.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.44.0\selenium-remote-driver-2.44.0.jar;C:\Users\01096\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-api\2.44.0\selenium-api-2.44.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.44.0\selenium-htmlunit-driver-2.44.0.jar;C:\Users\01096\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\01096\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\01096\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\01096\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\httpmime\4.3.3\httpmime-4.3.3.jar;C:\Users\01096\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\01096\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\01096\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\01096\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\01096\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\01096\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\01096\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\01096\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\01096\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\01096\.m2\repository\org\eclipse\jetty\jetty-io\8.1.15.v20140411\jetty-io-8.1.15.v20140411.jar;C:\Users\01096\.m2\repository\org\eclipse\jetty\jetty-http\8.1.15.v20140411\jetty-http-8.1.15.v20140411.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\httpclient\4.3.4\httpclient-4.3.4.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.44.0\selenium-firefox-driver-2.44.0.jar;C:\Users\01096\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.44.0\selenium-ie-driver-2.44.0.jar;C:\Users\01096\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\01096\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.44.0\selenium-safari-driver-2.44.0.jar;C:\Users\01096\.m2\repository\org\seleniumhq\selenium\selenium-support\2.44.0\selenium-support-2.44.0.jar;C:\Users\01096\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\01096\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\01096\.m2\repository\com\opera\operadriver\1.5\operadriver-1.5.jar;C:\Users\01096\.m2\repository\com\opera\operalaunchers\1.1\operalaunchers-1.1.jar;C:\Users\01096\.m2\repository\com\google\protobuf\protobuf-java\2.4.1\protobuf-java-2.4.1.jar;C:\Users\01096\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\Users\01096\.m2\repository\commons-jxpath\commons-jxpath\1.3\commons-jxpath-1.3.jar;C:\Users\01096\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\01096\.m2\repository\org\ini4j\ini4j\0.5.2\ini4j-0.5.2.jar;C:\Users\01096\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\01096\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\01096\.m2\repository\io\github\bonigarcia\webdrivermanager\5.2.2\webdrivermanager-5.2.2.jar;C:\Users\01096\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\01096\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\01096\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\01096\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\01096\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\01096\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\01096\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\01096\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\01096\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\01096\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\01096\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\01096\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\01096\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\01096\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\01096"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\01096\OneDrive\Desktop\Test On Maven\Orange"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\01096\AppData\Local\Temp\surefire6493754196378322511\surefirebooter6805787880833851306.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.1.1+2-6"/>
+    <property name="user.name" value="01096"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-15\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\01096\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\01096\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.1.1"/>
+    <property name="user.dir" value="C:\Users\01096\OneDrive\Desktop\Test On Maven\Orange"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\RoboDK\Python37\Scripts\;C:\RoboDK\Python37\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\01096\AppData\Local\Microsoft\WindowsApps;C:\Users\01096\AppData\Local\Programs\Microsoft VS Code\bin;C:\dart-sdk\bin;C:\flutter\bin;C:\Program Files\Java\jdk-18.0.1.1\bin;;C:\Program Files\JetBrains\PyCharm 2021.3.3\bin;;C:\Program Files\PyCharm Community Edition 2022.2.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.1.1+2-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="netbeans.testng.action" value="true"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testLogin[Admin, admin123, orangehrm-login-button, oxd-userdropdown-name, Paul Collings](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="8.976">
+    <failure message="expected [Paul Collings] but found [Ahmed Abdalkader]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Paul Collings] but found [Ahmed Abdalkader]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.mycompany.mavenproject1.TestMavinIT_Organized.testLogin(TestMavinIT_Organized.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 57573
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testLogin[Admin, admin123, orangehrm-login-button, oxd-userdropdown-name, Paul Collings](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="8.709">
+    <failure message="expected [Paul Collings] but found [Ahmed Abdalkader]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Paul Collings] but found [Ahmed Abdalkader]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.mycompany.mavenproject1.TestMavinIT_Organized.testLogin(TestMavinIT_Organized.java:59)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 23254
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="testSideBarClose[oxd-main-menu-button, bi-chevron-right, oxd-icon bi-chevron-right](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="2.346"/>
+  <testcase name="testSideBarOpen[oxd-main-menu-button, bi-chevron-left, oxd-icon bi-chevron-left](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="2.183"/>
+  <testcase name="testTabAdmin[.oxd-main-menu-item[href=&apos;/web/index.php/admin/viewAdminModule&apos;], oxd-topbar-header-breadcrumb-level, User Management](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="3.327"/>
+  <testcase name="testTabPim[.oxd-main-menu-item[href=&apos;/web/index.php/pim/viewPimModule&apos;], oxd-topbar-header-breadcrumb-module, PIM](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="3.19"/>
+  <testcase name="testTabLeave[.oxd-main-menu-item[href=&apos;/web/index.php/leave/viewLeaveModule&apos;], oxd-topbar-header-breadcrumb-module, Leave](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="3.109"/>
+  <testcase name="testTabTime[.oxd-main-menu-item[href=&apos;/web/index.php/time/viewTimeModule&apos;], oxd-topbar-header-breadcrumb-level, Timesheets](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="3.224"/>
+  <testcase name="testTabRecru[.oxd-main-menu-item[href=&apos;/web/index.php/recruitment/viewRecruitmentModule&apos;], oxd-topbar-header-breadcrumb-module, Recruitment](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="3.533"/>
+  <testcase name="testTabMyInfo[.oxd-main-menu-item[href=&apos;/web/index.php/pim/viewMyDetails&apos;], orangehrm-main-title, Personal Details](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="4.471"/>
+  <testcase name="testTabPerformance[.oxd-main-menu-item[href=&apos;/web/index.php/performance/viewPerformanceModule&apos;], oxd-topbar-header-breadcrumb-level, Manage Reviews](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="4.979"/>
+  <testcase name="testTabDash[.oxd-main-menu-item[href=&apos;/web/index.php/dashboard/index&apos;], oxd-topbar-header-breadcrumb-module, Dashboard](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="2.927"/>
+  <testcase name="testTabDire[.oxd-main-menu-item[href=&apos;/web/index.php/directory/viewDirectory&apos;], oxd-topbar-header-breadcrumb-module, Directory](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="3.26"/>
+  <testcase name="testTabMainten[.oxd-main-menu-item[href=&apos;/web/index.php/maintenance/viewMaintenanceModule&apos;], orangehrm-admin-access-title, Administrator Access](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="3.213"/>
+  <testcase name="testTabBuzz[.oxd-main-menu-item[href=&apos;/web/index.php/buzz/viewBuzz&apos;], oxd-topbar-header-breadcrumb-module, Buzz](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="2.84"/>
+  <testcase name="testLogout[oxd-userdropdown, //a[@href=&apos;/web/index.php/auth/logout&apos;], orangehrm-login-title, Login](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="5.136"/>
+  <testcase name="testTabDashFunc[.oxd-main-menu-item[href=&apos;/web/index.php/dashboard/index&apos;], orangehrm-attendance-card-action, //input[@placeholder=&apos;yyyy-mm-dd&apos;], 2022-12-30, //input[@placeholder=&apos;hh:mm&apos;], 02:30 PM, oxd-textarea, Test Comment, oxd-topbar-header-breadcrumb-module, Attendance, orangehrm-leave-card-icon, oxd-text--card-body, Employees on Leave Today, orangehrm-left-space, //button[@title=&apos;My Timesheet&apos;], oxd-topbar-header-breadcrumb-level, Timesheets](1)" classname="com.mycompany.mavenproject1.TestMavinIT_Organized" time="26.631"/>
+</testsuite>

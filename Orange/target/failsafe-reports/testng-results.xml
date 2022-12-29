@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="13369" started-at="2022-12-27T23:35:15Z" finished-at="2022-12-27T23:35:28Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="13369" started-at="2022-12-27T23:35:15Z" finished-at="2022-12-27T23:35:28Z">
+      <class name="com.mycompany.mavenproject1.Mavenproject1IT">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:testLogin(com.mycompany.mavenproject1.Mavenproject1IT)]" name="testLogin" duration-ms="13343" started-at="2022-12-28T01:35:15Z" finished-at="2022-12-28T01:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- com.mycompany.mavenproject1.Mavenproject1IT -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

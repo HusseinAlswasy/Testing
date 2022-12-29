@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [com.mycompany_TestMavin_jar_1.0-SNAPSHOT]" verbose="0">
+  <test name="AdminTabFunctionality(failed)">
+    <classes>
+      <class name="com.mycompany.mavenproject1.TestMavinIT_Organized">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="testLogin" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.mycompany.mavenproject1.TestMavinIT_Organized -->
+    </classes>
+  </test> <!-- AdminTabFunctionality(failed) -->
+  <test name="DashboardTabFunctionality(failed)">
+    <classes>
+      <class name="com.mycompany.mavenproject1.TestMavinIT_Organized">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="tearDownClass"/>
+          <include name="testLogin" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.mycompany.mavenproject1.TestMavinIT_Organized -->
+    </classes>
+  </test> <!-- DashboardTabFunctionality(failed) -->
+</suite> <!-- Failed suite [com.mycompany_TestMavin_jar_1.0-SNAPSHOT] -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="com.mycompany.mavenproject1.TestMavinIT_Organized">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="testTabMyInfo" invocation-numbers="0"/>
+          <include name="testTabDire" invocation-numbers="0"/>
+          <include name="testTabPim" invocation-numbers="0"/>
+          <include name="testLogin" invocation-numbers="0"/>
+          <include name="testTabTime" invocation-numbers="0"/>
+          <include name="testTabDash" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+          <include name="testTabPerformance" invocation-numbers="0"/>
+          <include name="testTabBuzz" invocation-numbers="0"/>
+          <include name="testTabDashFunc"/>
+          <include name="testTabLeave" invocation-numbers="0"/>
+          <include name="testSideBarOpen" invocation-numbers="0"/>
+          <include name="testTabMainten" invocation-numbers="0"/>
+          <include name="testTabAdmin" invocation-numbers="0"/>
+          <include name="testSideBarClose" invocation-numbers="0"/>
+          <include name="testTabRecru" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.mycompany.mavenproject1.TestMavinIT_Organized -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
